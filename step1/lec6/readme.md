@@ -1,3 +1,28 @@
+
+## #️⃣ Hashing
+
+Hashing is a technique to map data (like characters or numbers) into a fixed-size array using a hash function. It is commonly used for frequency counting and efficient lookups.
+
+**Example:** Character frequency counter
+
+```python
+s = "abababaacacaq"
+hash_list = [0] * 26  # For lowercase English letters
+
+for ch in s:
+    hash_list[ord(ch) - 97] += 1
+
+print(hash_list)  # Shows frequency of each letter
+```
+
+### 📷 Program Illustration
+
+Here is an image (`hashing.png`) showing how hashing maps characters into the array:
+
+![Hashing Example](./hashing.png)
+
+---
+
 # Hashing & Frequency Counting in Python
 
 This README explains multiple ways to count frequencies of elements in arrays and strings using **dictionaries** and **hashing techniques**.
