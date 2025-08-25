@@ -23,16 +23,6 @@ Here is an image (`hashing.png`) showing how hashing maps characters into the ar
 
 ---
 
-# Hashing & Frequency Counting in Python
-
-This README explains multiple ways to count frequencies of elements in arrays and strings using **dictionaries** and **hashing techniques**.
-
----
-
-![Hashing Example](./hashing.png)
-
----
-
 ## 1. Counting Frequency with Dictionary
 
 ```python
